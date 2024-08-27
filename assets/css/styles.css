@@ -1,0 +1,375 @@
+/* Importando tipo de letra desde goole fonst */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Body */
+body {
+    background-color: #fff !important;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.contenedor .header .navbar .menu {
+    padding-top: 0.5em;
+    margin-left: 20em;
+}
+
+/* Configuraciones del logo */
+.contenedor .header .navbar .logo img {
+    width: 14vw;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+/* navbar */
+.contenedor .header .navbar {
+    background-color: #a83338;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.contenedor .header .navbar .menu-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    list-style: none;
+    width: 40vw;
+}
+
+.contenedor .header .navbar .menu-navbar a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+/* Main */
+.contenedor .main-content {
+    margin: 2em;
+    margin-top: 5em;
+}
+
+/* Carrucel */
+.contenedor .main-content .carucel .carousel-inner,
+.carousel-item,
+.caroucel-img {
+    height: 80vh !important;
+    border-radius: 20px;
+}
+
+.contenedor .main-content .main-sections .main-title {
+    margin: 5rem;
+}
+
+.contenedor .main-content .main-sections .main-title h1 {
+    text-align: center;
+    color: #a83338;
+}
+
+/* Sections Products */
+.contenedor .main-content .main-sections .promo-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.contenedor .main-content .main-sections .promo-card img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor .main-content .main-sections .promo-card .promo-link {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.contenedor .main-content .main-sections .promo-card .promo-link:hover {
+    background-color: #a83338;
+    color: #fff;
+}
+
+/* Departamentos */
+.contenedor .main-content .main-sections .departments {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.contenedor .main-content .main-sections .departments img {
+    background-color: #a83338;
+    width: 12vw;
+    height: 20vh;
+    border: 3px solid #a83338;
+
+}
+
+
+/* footer */
+.contenedor .footer h5 {
+
+    font-weight: bold;
+
+}
+
+.contenedor .footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contenedor footer a:hover {
+    text-decoration: underline;
+    color: #a83338;
+}
+
+
+/*Medias querys (estilos para tables 1405px responsive)*/
+@media(min-width: 1025px) and (max-width: 1405px) {
+
+    .contenedor .header .navbar .logo img {
+        width: 23vw;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .contenedor .header .navbar .menu {
+        padding-top: 1.2em;
+        margin-left: 5em;
+    }
+
+    .contenedor .header .navbar .menu-navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        list-style: none;
+        width: 60vw;
+        font-size: 1rem;
+    }
+
+    .contenedor .main-content .main-sections .departments {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 2rem;
+        align-items: center;
+        margin-top: 20px;
+
+
+    }
+
+    .contenedor .main-content .main-sections .departments img {
+        background-color: #a83338;
+        width: 12vw;
+        height: 20vh;
+        border: 3px solid #a83338;
+
+    }
+}
+
+/*Medias querys (estilos para tables 1024px a 821px responsive)*/
+@media(min-width: 821px) and (max-width: 1024px) {
+
+    .contenedor .header .navbar .logo img {
+        width: 23vw;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .contenedor .header .navbar .menu {
+        padding-top: 1.2em;
+        margin-left: 5em;
+    }
+
+    .contenedor .header .navbar .menu-navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        list-style: none;
+        width: 60vw;
+        font-size: 1rem;
+    }
+
+    .contenedor .main-content .main-sections .departments {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 2rem;
+        align-items: center;
+        margin-top: 20px;
+
+
+    }
+
+    .contenedor .main-content .main-sections .departments img {
+        background-color: #a83338;
+        width: 12vw;
+        height: 20vh;
+        border: 3px solid #a83338;
+
+    }
+}
+
+/*Medias querys (estilos para tables 820 px responsive)*/
+@media (min-width: 769px) and (max-width: 820px) {
+    .contenedor .header .navbar .logo img {
+        width: 20vw;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .contenedor .header .navbar .menu {
+        padding-top: 1em;
+        margin-left: 5em;
+    }
+
+    .contenedor .header .navbar .menu-navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        list-style: none;
+        width: 60vw;
+        font-size: 0.8rem;
+    }
+
+    .contenedor .main-content .main-sections .departments {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 2rem;
+        align-items: center;
+        margin-top: 20px;
+
+
+    }
+
+    .contenedor .main-content .main-sections .departments img {
+        background-color: #a83338;
+        width: 20vw;
+        height: 30vh;
+        border: 3px solid #a83338;
+
+    }
+}
+
+/*Medias querys (estilos para tables 768px responsive)*/
+@media(min-width: 531px) and (max-width: 768px) {
+    .contenedor .header .navbar .logo img {
+        width: 20vw;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .contenedor .header .navbar .menu {
+        padding-top: 1em;
+        margin-left: 3em;
+    }
+
+    .contenedor .header .navbar .menu-navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        list-style: none;
+        width: 60vw;
+        font-size: 0.8rem;
+    }
+
+    .contenedor .main-content .main-sections .departments {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 2rem;
+        align-items: center;
+        margin-top: 20px;
+
+
+    }
+
+    .contenedor .main-content .main-sections .departments img {
+        background-color: #a83338;
+        width: 20vw;
+        height: 30vh;
+        border: 3px solid #a83338;
+
+    }
+
+    .contenedor .footer .container {
+
+        align-items: center;
+
+    }
+}
+
+/*Medias querys (estilos para celulares 530 px a 310px responsive)*/
+@media(min-width: 310px) and (max-width: 530px) {
+
+    /* Configuraciones del logo */
+    .contenedor .header .navbar .logo img {
+        width: 27vw;
+        align-items: center;
+        margin-right: 1rem;
+    }
+
+    .contenedor .header .navbar .menu {
+        padding-top: 0.8em;
+        margin-left: 0em;
+
+    }
+
+    .contenedor .header .navbar .menu-navbar {
+        display: block;
+        line-height: 2em;
+        align-items: center;
+        list-style: none;
+        width: 40vw;
+        font-size: 0.8rem;
+    }
+
+    .contenedor .main-content {
+        margin: 0.5em;
+        margin-top: 5em;
+    }
+
+    /* Carrucel */
+    .contenedor .main-content .carucel .carousel-inner,
+    .carousel-item,
+    .caroucel-img {
+        height: 80vh !important;
+        border-radius: 20px;
+    }
+
+    .contenedor .main-content .main-sections .departments {
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 0.5rem;
+        align-items: center;
+        margin-top: 20px;
+
+
+    }
+
+    .contenedor .main-content .main-sections .departments img {
+        background-color: #a83338;
+        width: 30vw;
+        height: 30vh;
+        border: 1px solid #a83338;
+
+    }
+
+}
