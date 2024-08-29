@@ -60,6 +60,9 @@ body {
     height: 80vh !important;
     border-radius: 20px;
 }
+.contenedor .main-content .main-sections{
+    margin-top: 10rem;
+}
 
 .contenedor .main-content .main-sections .main-title {
     margin: 5rem;
